@@ -1,0 +1,117 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav {
+	position: fixed;
+	display: flex;
+	width: 100%;
+	background-color: #fff;
+	color: white;
+	justify-content: space-around;
+	height: 2.5em;
+	user-select: none;
+	box-shadow: 0.1px 0.5px 18px #888888;
+	z-index: 1;
+	height: 50px;
+}
+
+#logo {
+	padding: 10px;
+	padding-top: 12.5px;
+	font-family: 'Poppins', sans-serif;
+	color: #33f;
+	text-transform: uppercase;
+}
+
+.nav-list {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	padding: 16px;
+	font-family: 'Arial', sans-serif;
+}
+
+.nitem {
+	color: black;
+	padding: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: default;
+	transition: .2s;
+}
+
+.nitem:hover {
+	color: #33f;
+	transition: .2s;
+	cursor: default;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+#content {
+	background: rgb(0,86,255);
+	background: linear-gradient(56deg, rgba(0,86,255,1) 0%, rgba(0,219,255,1) 100%);
+	position: absolute;
+	color: white;
+	z-index: -1;
+	width: 100%;
+	left: 3.35%;
+	height: 80%;
+	border-bottom-left-radius: 100px;
+}
+
+#text-content {
+	position: absolute;
+	left: 20%;
+	top: 25%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 44px;
+	text-align: center;
+	width: 1080px;
+}
+
+#text-subtitle {
+	position: absolute;
+	left: 19.90%;
+	top: 42%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+	text-align: center;
+	width: 1080px;
+}
+
+.install-list {
+	display: flex;
+	position: absolute;
+	top: 90%;
+	left: 35%;
+	width: 580px;
+}
+
+.installer {
+	width: 135px;
+	height: 175px;
+	background-color: #ebebeb;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.installer-title {
+	font-family: 'Fredoka One', sans-serif;
+}
+
+.installer-desc {
+	font-family: 'Arial', sans-serif;
+	margin-top: 5px;
+}
+
+.installer-link {
+	text-decoration: none;
+	color: black;
+}
